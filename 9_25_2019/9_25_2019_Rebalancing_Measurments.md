@@ -2,12 +2,12 @@
 
 ## Scale Modifications
 
-A hanging scale was purchased to do buoyancy measurments of Janus.  The key issue with the digital scale was one of waterproofness.  The load cell was easily removed and the 4 wires had 3 feet of extension added to them.  Care was taken to silicon insoluate the wires to prevent issues with water penetration when testing.  This allowed submerging of the loadcell while keeping the electronics as a remote display.  Tests showed out of water this was still funcional and calibrated.
+A hanging scale was purchased to do buoyancy measurments of Janus.  The key issue with the digital scale was one of waterproofness.  The load cell was easily removed and the 4 wires had 3 feet of extension added to them.  Care was taken to silicon insulate the wires to prevent issues with water penetration when testing.  This allowed submerging of the loadcell while keeping the electronics as a remote display.  Tests showed out of water this was still funcional and calibrated.
 
 | ![Scale Open](img/Scale_Open.jpg) | ![Modified Scale Test](img/Modified_Scale_Test.jpg) |
 |:---:|:---:|
 
-A piece of Duct Tape was applied to a 2.5lb barbell weigth and the load cell was slid under it.  This was submerged and hooked to the lower bar of the submarine placed to allow the sub to float as flat as possible.  The submarine was pushed down sligtly and the load cell was zeroed.  Then the sub was released.  The measurment settled at 0.18lb and was repeated multiple times.
+A piece of duct tape was applied to a 2.5lb barbell weight and the load cell was slid under it.  This was submerged and hooked to the lower bar of the submarine placed to allow the sub to float as flat as possible.  The submarine was pushed down sligtly and the load cell was zeroed.  Then the sub was released.  The measurment settled at 0.18lb and was repeated multiple times.
 
 This setup had some issues.  If the submarine was pushed too far down when zeroing the hook from the loadcell would come off the submarine.  When trying to install the hook on the submarine if the weight was lifted it was easy for the loadcell to slip off of the duct tape.  Recommend designing a 3D Printed holder for the loadcell that can be more reliably stay attached to it and the weight.
 
@@ -26,11 +26,11 @@ The sub was placed in a bucket and its neutral buoyancy tested.  When moving the
 
 ## Center of Mass Measurement
 
-To measure the center of mass of the submarine it was suspended from the top of its front and rear frame clamps.  The intersection of the gravity vectors in each case was taken to estimate the center of mass.  The result was a sport inbetween the center motor mounts, 4cm below the frame line.  This is very close to being inline with the thrusters which should reducing the pitching when driving issue significantly.
+To measure the center of mass of the submarine it was suspended from the top of its front and rear frame clamps.  The intersection of the gravity vectors in each case was taken to estimate the center of mass.  The result was a spot inbetween the center motor mounts, 4cm below the frame line.  This is very close to being inline with the thrusters which should reducing the pitching when driving issue significantly.
 
 ![Center-of-Mass Test Setup](img/COM_Test.jpg)
 
-During the initaly measurment a 1/2 wide piece of duct tape was used as the hanging cord.  This tore and the submarine fell.  In the sucessfull tests a full width piece of tape was used and there where no issues.  It was hung from a shelving rack and the rack frame was used as a gravity vector reference.  Photos where taken and overlaied to find the intersection point.
+During the inital measurment a 1/2 wide piece of duct tape was used as the hanging cord.  This tore and the submarine fell.  In the sucessfull tests a full width piece of tape was used and there where no issues.  It was hung from a shelving rack and the rack frame was used as a gravity vector reference.  Photos where taken and overlaid to find the intersection point.
 
 The submarine was mostly caught but took significant damage in the fall.  Both of the top bolt points on the frame clamps cracked.  The side of the frame that hit first took significant damage.  The front and rear motor mounts broke off.  The frame broke at the rear weld point.  The rear thruster cowling broke at the supports.  The front motor mount shatered at all of the holes and more spots into 6-7 pieces.  All pieces where found and acetone welded back together.  The frame appears to be functional again.
 
@@ -40,13 +40,13 @@ The submarine was mostly caught but took significant damage in the fall.  Both o
 
 The center of buoyancy can be calculated from the center of mass of a constant density equivalent of the volume displaced by the submarine.  Looking at the model it appears the majority of non-tube displacment occurs below the frame line, so the COB should be below the frame line.
 
-Measurments from freecad show it being forward of the cenerline as well as about 1cm below the frame line.
+Measurements from FreeCAD show it being forward of the centerline as well as about 1cm below the frame line.
 
 ![COB From FreeCAD Model](img/Center_Of_Buoyancy.png)
 
 ### Estimation from Applied Force
 
-When applying force to the sub there are 3 forces acting.  The downward applied force, the bouyant force at the COB, and the force of gravity at the COM.  The sub must orient itself in such a way as for these 3 forces and there applied torques to cancel out.
+When applying force to the sub there are 3 forces acting.  The downward applied force, the buoyant force at the COB, and the force of gravity at the COM.  The sub must orient itself in such a way as for these 3 forces and there applied torques to cancel out.
 
 Sub was allowed to float in center of bucket.  Downwards force was applied to the center of one of the sides of the frame.  The sub became slightly submered and floated at a slight angle.  The line parallel to the horizon intersected approximately with the center of the battery.  Without measruing the downward applied force I do not thing it is possible to compute the COB from this data.
 
@@ -56,7 +56,7 @@ A new volume was calculated using the known weight and buoyancy.  The sub had no
 
 We can measure the coefficents my measuring the required force/torque to move/rotate the submarine at constant rates in the water.  This may be difficult to achive.  We would need to do a tow test.  Spining the sub about its COM may create futher complications.
 
-Alternativly we can attempt flow simulations to find the force applied by different flow velocities.  This may require the model to be pulled into solidworks or other similar commercial software.
+Alternatively we can attempt flow simulations to find the force applied by different flow velocities.  This may require the model to be pulled into solidworks or other similar commercial software.
 
 ## Future Work
 
