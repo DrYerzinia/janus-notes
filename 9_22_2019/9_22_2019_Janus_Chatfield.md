@@ -51,6 +51,7 @@ Upon completion of battey recharging the charger reported 2518 mah entering the 
 * Depth Zero Calibration commmand
 * Lower Center Of Mass
 * Install gstreamer h265parser on laptop
+* HDMI Headmount Display for Bright Areas (AR display?)
 
 ## Remember to
 * Pull the tether from the XT30 to not break the tether
