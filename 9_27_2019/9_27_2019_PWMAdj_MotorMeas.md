@@ -8,18 +8,18 @@ An oscilicope was attached to one of the signal lines and the PWM range was set 
 
 
 | In PWM | Out PWM |
-|------|------|
-| 1000 | 1116 |
-| 1100 | 1196 |
-| 1200 | 1272 |
-| 1300 | 1348 |
-| 1400 | 1424 |
-| 1500 | 1500 |
-| 1600 | 1576 |
-| 1700 | 1656 |
-| 1800 | 1732 |
-| 1900 | 1812 |
-| 2000 | 1888 |
+|--------|---------|
+|   1000 |    1116 |
+|   1100 |    1196 |
+|   1200 |    1272 |
+|   1300 |    1348 |
+|   1400 |    1424 |
+|   1500 |    1500 |
+|   1600 |    1576 |
+|   1700 |    1656 |
+|   1800 |    1732 |
+|   1900 |    1812 |
+|   2000 |    1888 |
 
 We can see that the 1000-2000 uS range used by the cusub system is correctly mapped to the 1100-1900 setup for the ESCs.
 
